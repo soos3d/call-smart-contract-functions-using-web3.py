@@ -6,6 +6,24 @@ So you just deployed a smart contract, but now you need a way to interact with i
 
 This tutorial shows you how you can call smart contract functions using the web3.py library. You will learn how to call view/pure functions, and functions that change the state of the blockchain. 
 
+# Table of contents
+
+- [Requirements](#requirements)
+    - [Install Python](#install-python)
+    - [Install web3.py](#install-web3py)
+    - [Access a node endpoint](#access-a-node-endpoint)
+  - [What is Web3.py?](#what-is-web3py)
+  - [How to call smart contract functions using web3.py](#how-to-call-smart-contract-functions-using-web3py)
+    - [Connect to the network](#connect-to-the-network)
+    - [Initialize smart contract and account](#initialize-smart-contract-and-account)
+    - [Call functions and transactions](#call-functions-and-transactions)
+      - [Call a function that modifies the state](#call-a-function-that-modifies-the-state)
+      - [Call a pure or view function](#call-a-pure-or-view-function)
+  - [Full scripts](#full-scripts)
+    - [Call view and pure functions](#call-view-and-pure-functions)
+    - [Functions that change the state of the blockchain](#functions-that-change-the-state-of-the-blockchain)
+  - [Conclusion](#conclusion)
+
 # Requirements
 
 To use `web3.py` you need:
@@ -58,7 +76,7 @@ When you use `web3.py` to interact with smart contracts, you can divide the scri
 - Initialize the smart contract & account to sign the transactions from.
 - Call functions and transactions. 
 
-> The following examples only show the syntax and the logic; go to the [Full scripts](#-Full-scripts) section to find complete scripts that call real smart contract functions out of the box. 
+> The following examples only show the syntax and the logic; go to the [Full scripts](#full-scripts) section to find complete scripts that call real smart contract functions out of the box. 
 
 Find all of the files in the repository as well. 
 
